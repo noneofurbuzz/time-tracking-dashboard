@@ -2,8 +2,8 @@ export default function User(prop){
     return(
         <>
         <div className="flex justify-end items-center mt-16">
-        <img src={prop.darkMode ? "src/assets/images/moon-on.svg" : "src/assets/images/moon.svg"} alt="moon" className="block"></img>
-        <img src={prop.darkMode ? "src/assets/images/toggle-off.svg" : "src/assets/images/toggle-on.svg"} alt="toggle" className="mx-3 ml-5  hover:cursor-pointer block "onClick={prop.toggleSwitch}></img>
+        <img src={prop.darkMode ? "/src/assets/images/moon-on.svg" : "/src/assets/images/moon.svg"} alt="moon" className="block"></img>
+        <img src={prop.darkMode ? "/src/assets/images/toggle-off.svg" : "/src/assets/images/toggle-on.svg"} alt="toggle" className="mx-3 ml-5  hover:cursor-pointer block "onClick={prop.toggleSwitch}></img>
         <img src={prop.darkMode ? "/src/assets/images/sun.svg" : "/src/assets/images/sun-on.svg"} alt="sun" className="mr-6 px-0 block "></img>
         </div>
         <div className={`${prop.darkMode ? "bg-dark-blue" : "bg-random"} mx-6  mt-4 rounded-2xl `}>
