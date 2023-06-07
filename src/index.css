@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: rubik;
+  src: url(assets/fonts/Rubik-VariableFont_wght.ttf);
+}
+.dark{
+  @apply bg-white
+}
