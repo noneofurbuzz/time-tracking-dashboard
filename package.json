@@ -1,8 +1,8 @@
 {
+  "homepage": "http://noneofurbuzz.github.io/time-tracking-board",
   "name": "time-tracking-dashboard",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://noneofurbuzz.github.io/time-tracking-board",
   "type": "module",
   "scripts": {
     "dev": "vite",
