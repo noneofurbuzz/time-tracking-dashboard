@@ -26,7 +26,11 @@ export default {
         "whitish-blue":"hsl(227, 100%, 98%)",
         "navy-blue":"hsl(220, 18%, 16%)",
         "random":"hsl(227, 47%, 96%)",
-        "gray":"hsl(217, 20%, 51%)"
+        "gray":"hsl(217, 20%, 51%)",
+        "grayish":"hsl(227, 105%, 90%)"
+      },
+      width:{
+        "200":"60rem"
       }
     },
   },
